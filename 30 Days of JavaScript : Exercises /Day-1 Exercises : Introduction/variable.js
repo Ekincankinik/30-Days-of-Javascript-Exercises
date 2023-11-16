@@ -52,7 +52,7 @@ let fName = 'Adam',     //name of a person
   live = 'Scotland'
 
 
-//   another examples of variables
+//   other examples of variables
 
 
 let dogName = 'Lucky'
