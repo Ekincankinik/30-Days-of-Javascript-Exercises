@@ -57,7 +57,7 @@ return volume
 }
 console.log(volumeOfRectPrism(10,12,7))
 
-// 7.   Area of a circle is calculated as follows: area = π x r x r. Write a function which calculates areaOfCircle
+// 7.   The area of a circle is calculated as follows: area = π x r x r. Write a function which calculates areaOfCircle
 
 function areaOfCircle(r){
 
@@ -67,7 +67,7 @@ return area
 console.log(areaOfCircle(15))
 
 
-// 8.   Circumference of a circle is calculated as follows: circumference = 2πr. Write a function which calculates circumOfCircle
+// 8.   The circumference of a circle is calculated as follows: circumference = 2πr. Write a function which calculates circumOfCircle
 
 function circumOfCircle(radius){
 
@@ -78,8 +78,7 @@ function circumOfCircle(radius){
 console.log(circumOfCircle(5))
 
 
-
-// 9.   Density of a substance is calculated as follows:density= mass/volume. Write a function which calculates density.
+// 9.   The density of a substance is calculated as follows: density mass/volume. Write a function which calculates density.
 
 function density(mass, volume){
   let density = mass/volume
