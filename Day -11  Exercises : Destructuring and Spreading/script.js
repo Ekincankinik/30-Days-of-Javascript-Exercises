@@ -124,3 +124,21 @@ const student = ['David', ['HTM', 'CSS', 'JS', 'React'], [98, 85, 90, 95]]
 
 let [ fname, skills, scores] = student
 let [,, jsScore, reactScore] = scores
+
+// 3.  Write a function called convertArrayToObject which can convert the array to a structure object.
+
+
+  function convertArrayToObject(arr){
+for(let [name, skills, points] of arr ){
+    let object = {}
+object = {
+  name : name,
+  skills: skills,
+  points:points
+}
+
+console.log(object)
+
+}}
+
+convertArrayToObject(students)
